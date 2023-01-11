@@ -52,7 +52,7 @@ This table stores all customer deposits, withdrawals and purchases made using th
 
 ### A. Customer Nodes Exploration
 
-View my solution [here](https://github.com/katiehuangx/8-Week-SQL-Challenge/blob/main/Case%20Study%20%234%20-%20Data%20Bank/A.%20Customer%20Nodes%20Exploration.md).
+View my solution [here](https://github.com/VuNguyenDang/Data_Bank_SQL_Challenge_Full/blob/main/Full%20Answer%20for%204%20Challenges%20A%2CB%2CC%2CD.sql).
 
 1. How many unique nodes are there on the Data Bank system?
 2. What is the number of nodes per region?
@@ -62,7 +62,7 @@ View my solution [here](https://github.com/katiehuangx/8-Week-SQL-Challenge/blob
 
 ### B. Customer Transactions
 
-View my solution [here](https://github.com/katiehuangx/8-Week-SQL-Challenge/blob/main/Case%20Study%20%234%20-%20Data%20Bank/B.%20Customer%20Transactions.md).
+View my solution [here](https://github.com/VuNguyenDang/Data_Bank_SQL_Challenge_Full/blob/main/Full%20Answer%20for%204%20Challenges%20A%2CB%2CC%2CD.sql).
   
 1. What is the unique count and total amount for each transaction type?
 2. What is the average total historical deposit counts and amounts for all customers?
@@ -74,7 +74,32 @@ View my solution [here](https://github.com/katiehuangx/8-Week-SQL-Challenge/blob
   - Increase their opening month’s positive closing balance by more than 5% in the following month?
   - Reduce their opening month’s positive closing balance by more than 5% in the following month?
   - Move from a positive balance in the first month to a negative balance in the second month?
+ 
+### C. Data Allocation Challenge
+
+View my solution [here](https://github.com/VuNguyenDang/Data_Bank_SQL_Challenge_Full/blob/main/Full%20Answer%20for%204%20Challenges%20A%2CB%2CC%2CD.sql).
+
+To test out a few different hypotheses - the Data Bank team wants to run an experiment where different groups of customers would be allocated data using 3 different options:
+
+Option 1: data is allocated based off the amount of money at the end of the previous month
+Option 2: data is allocated on the average amount of money kept in the account in the previous 30 days
+Option 3: data is updated real-time
+For this multi-part challenge question - you have been requested to generate the following data elements to help the Data Bank team estimate how much data will need to be provisioned for each option:
+
+running customer balance column that includes the impact each transaction
+customer balance at the end of each month
+minimum, average and maximum values of the running balance for each customer
+Using all of the data available - how much data would have been required for each option on a monthly basis?
   
+### D. Extra Challenge
+Data Bank wants to try another option which is a bit more difficult to implement - they want to calculate data growth using an interest calculation, just like in a traditional savings account you might have with a bank.
+
+If the annual interest rate is set at 6% and the Data Bank team wants to reward its customers by increasing their data allocation based off the interest calculated on a daily basis at the end of each day, how much data would be required for this option on a monthly basis?
+
+Special notes:
+
+Data Bank wants an initial calculation which does not allow for compounding interest, however they may also be interested in a daily compounding interest calculation so you can try to perform this calculation if you have the stamina!
+
 ***
 
-Do give me a 🌟 if you like what you're reading. Thank you! 🙆🏻‍♀️
+Do give me a 🌟 if you like what you're reading. Thank you! 
